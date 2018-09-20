@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+.titletext {
+  text-align: center;
+}
+
+.initpara {
+  text-align: center;
+}
+
+#petlist {
+  min-width: 800px;
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  border-spacing: 5px 0px;
+}
+
+
+#petlist th{
+  text-decoration: underline;
+  border-style: double solid hidden solid;
+  border-spacing;
+}
+
+#petlist .imagerow {
+  border-style: hidden solid hidden solid;
+  border-spacing: 5px 0px;
+}
+
+#petlist .profilerow {
+  border-style: hidden solid double solid;
+  border-spacing: 5px 0px;
+}
+
+#petlist .emptyrow{
+  height: 10px;
+}
